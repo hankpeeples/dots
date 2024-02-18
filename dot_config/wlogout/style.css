@@ -9,27 +9,27 @@ window {
 button {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 20%;
+  background-size: 10%;
   background-color: rgba(200, 220, 255, 0);
   animation: gradient_f 20s ease-in infinite;
   border-radius: 2px;
-  border-color: #fff;
+  /* border-color: #fff; */
   color: #fff;
-  margin: 10px;
+  margin: 1px;
   /* Increased border radius for a more rounded look */
 }
 
 button:focus {
-  background-size: 25%;
-  border: 0px;
+  background-size: 12%;
+  border: 2px dashed #ee1e2e;
 }
 
 button:hover {
   background-color: #000;
   color: #1e1e2e;
-  background-size: 30%;
+  background-size: 10%;
   margin: 10px;
-  border-radius: 2px;
+  border-radius: 6px;
   transition:
     all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682),
     box-shadow 0.2s ease-in-out,
