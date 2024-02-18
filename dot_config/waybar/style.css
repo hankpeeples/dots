@@ -1,11 +1,13 @@
 * {
   border: none;
   border-radius: 0px;
-  font-family: "GeistMono Nerd Font Mono";
+  font-family: "GeistMono Nerd Font Mono", "Font Awesome 6 Free",
+    "Font Awesome 6 Brands";
   font-weight: bold;
   font-size: 12px;
-  min-height: 10px;
-  margin: 1px;
+  min-height: 20px;
+  /* margin: 0px; */
+  padding: 2px;
 }
 
 @import "theme.css";
