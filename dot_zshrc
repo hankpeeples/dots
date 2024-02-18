@@ -66,11 +66,13 @@ export EDITOR='nvim'
 # Set personal aliases, overriding those provided by oh-my-zsh libs, plugins, and themes.
 #alias archFlags="arch -x86_64" # Needed for `brew` installs
 
-alias zshconfig="chezmoi edit ~/.zshrc"
+alias zshconf="chezmoi edit ~/.zshrc"
 alias nvc="chezmoi edit ~/.config/nvim" # Open neovim config
-alias starshipconfig="chezmoi edit ~/.config/starship.toml" # Open starship config
-alias alacconfig="chezmoi edit ~/.config/alacritty/alacritty.toml"
-alias hyprconfig="chezmoi edit ~/.config/hypr" 
+alias starshipconf="chezmoi edit ~/.config/starship.toml" # Open starship config
+alias alacconf="chezmoi edit ~/.config/alacritty/alacritty.toml"
+alias hyprconf="chezmoi edit ~/.config/hypr" 
+alias wayconf="chezmoi edit ~/.config/waybar"
+alias ca="chezmoi apply -v"
 
 alias l="eza --long --header --git --no-permissions --no-user --all --grid --icons"
 alias ll="eza --long --no-user --git --all --icons"
