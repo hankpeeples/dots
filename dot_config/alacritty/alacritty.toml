@@ -19,14 +19,14 @@ print_events = false
 render_timer = false
 
 [font]
-size = 10.0
+size = 9.0
 
 # [font.bold]
 # family = "CaskaydiaMono NFM"
 # style = "Bold"
 
 [font.glyph_offset]
-x = 1
+x = 0
 y = 0
 
 # [font.italic]
@@ -358,10 +358,10 @@ dynamic_padding = false
 opacity = 0.8
 startup_mode = "Windowed"
 
-[window.dimensions]
-columns = 100
-lines = 85
+# [window.dimensions]
+# columns = 100
+# lines = 85
 
 [window.padding]
 x = 22
-y = 22
+y = 18

@@ -1,6 +1,4 @@
 #!/bin/bash
-## /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
-
 # wlogout (Power, Screen Lock, Suspend, etc)
 
 # Set variables for parameters
@@ -17,7 +15,7 @@ B_720=50
 if pgrep -x "wlogout" > /dev/null; then
     pkill -x "wlogout"
     exit 0
-fi
+lfi
 
 # Detect monitor resolution and scaling factor
 resolution=$(hyprctl -j monitors | jq -r '.[] | select(.focused==true) | .height / .scale' | awk -F'.' '{print $1}')
