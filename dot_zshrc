@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:$HOME/.cargo/bin:/usr/bin:/usr/local/bin:/sbin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/bin:/usr/local/bin:/sbin:$HOME/go/bin:$PATH
 
 ZSH_DISABLE_COMPFIX=true
 
@@ -66,13 +66,17 @@ export EDITOR='nvim'
 # Set personal aliases, overriding those provided by oh-my-zsh libs, plugins, and themes.
 #alias archFlags="arch -x86_64" # Needed for `brew` installs
 
+alias nvimconf="chezmoi edit ~/.config/nvim"
 alias zshconf="chezmoi edit ~/.zshrc"
 alias nvc="chezmoi edit ~/.config/nvim" # Open neovim config
 alias starshipconf="chezmoi edit ~/.config/starship.toml" # Open starship config
 alias alacconf="chezmoi edit ~/.config/alacritty/alacritty.toml"
+alias kittyconf="chezmoi edit ~/.config/kitty"
 alias hyprconf="chezmoi edit ~/.config/hypr" 
 alias wayconf="chezmoi edit ~/.config/waybar"
 alias ca="chezmoi apply -v"
+
+alias cdg="cd ~/Documents/Golang"
 
 alias l="eza --long --header --git --no-permissions --no-user --all --grid --icons"
 alias ll="eza --long --no-user --git --all --icons"
