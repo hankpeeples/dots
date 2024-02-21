@@ -71,18 +71,19 @@ local plugins = {
 	{ "uga-rosa/ccc.nvim", lazy = true },
 
 	-- Colorschemes
-	{ "Shatur/neovim-ayu" },
+	-- { "Shatur/neovim-ayu" },
 	{
 		"folke/tokyonight.nvim",
 		lazy = false,
 		priority = 1000,
 		opts = {},
 	},
-	{
-		"sainnhe/everforest",
-		lazy = false,
-		priority = 1000,
-	},
+	-- {
+	-- 	"sainnhe/everforest",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- },
+	-- { "NLKNguyen/papercolor-theme", lazy = false, priority = 1000 },
 
 	-- cmp plugins
 	{ "hrsh7th/nvim-cmp", lazy = true }, -- The completion plugin
