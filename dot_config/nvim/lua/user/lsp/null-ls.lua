@@ -35,7 +35,7 @@ null_ls.setup({
 		diagnostics.revive.with({ -- Golang linter
 			args = {
 				"-config",
-				"/home/hankp/.config/revive/config.toml",
+				"/home/notRoot/.config/revive/config.toml",
 				"-formatter",
 				"json",
 			},
