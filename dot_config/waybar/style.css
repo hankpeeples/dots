@@ -36,14 +36,14 @@ tooltip {
 }
 
 #workspaces button.active {
-  background: @wb-act-bg;
-  color: @wb-act-fg;
+  /* background: @main-bg; */
+  color: @wb-color;
   padding-left: 4px;
   padding-right: 4px;
 }
 
 #workspaces button:hover {
-  background: @wb-hvr-bg;
+  background: @main-bg;
   color: @wb-hvr-fg;
   padding-left: 4px;
   padding-right: 4px;
@@ -54,25 +54,17 @@ tooltip {
   text-shadow: none;
   padding: 0px;
   border-radius: 2px;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  padding-left: 4px;
-  padding-right: 4px;
   color: @wb-color;
 }
 
 #taskbar button.active {
-  background: @wb-act-bg;
-  color: @wb-act-color;
-  padding-left: 4px;
-  padding-right: 4px;
+  /* background: @wb-act-bg; */
+  color: @wb-color;
 }
 
 #taskbar button:hover {
-  background: @wb-hvr-bg;
+  background: @main-bg;
   color: @wb-hvr-color;
-  padding-left: 4px;
-  padding-right: 4px;
 }
 
 #backlight,
@@ -105,11 +97,11 @@ tooltip {
 #custom-rl_end,
 #custom-rr_end {
   color: @main-fg;
-  background: @main-bg;
+  background: @wb-act-bg;
   opacity: 1;
-  margin: 2px 0px 2px 0px;
-  padding-left: 2px;
-  padding-right: 2px;
+  /* margin: 2px 0px 2px 0px; */
+  /* padding-left: 2px; */
+  /* padding-right: 2px; */
 }
 
 #memory {
@@ -123,40 +115,41 @@ tooltip {
 #workspaces,
 #taskbar {
   padding: 0px;
+  background: transparent;
 }
 
 #custom-r_end {
   border-radius: 0px 2px 2px 0px;
-  margin-right: 4px;
-  padding-right: 4px;
+  margin-right: 2px;
+  padding-right: 2px;
 }
 
 #custom-l_end {
   border-radius: 2px 0px 0px 2px;
-  margin-left: 4px;
-  padding-left: 4px;
+  margin-left: 2px;
+  padding-left: 2px;
 }
 
 #custom-sr_end {
   border-radius: 2px;
-  margin-right: 4px;
-  padding-right: 4px;
+  margin-right: 2px;
+  padding-right: 2px;
 }
 
 #custom-sl_end {
   border-radius: 2px;
-  margin-left: 4px;
-  padding-left: 4px;
+  margin-left: 2px;
+  padding-left: 2px;
 }
 
 #custom-rr_end {
   border-radius: 0px 2px 2px 0px;
-  margin-right: 4px;
-  padding-right: 4px;
+  margin-right: 2px;
+  padding-right: 2px;
 }
 
 #custom-rl_end {
   border-radius: 2px 0px 0px 2px;
-  margin-left: 4px;
-  padding-left: 4px;
+  margin-left: 2px;
+  padding-left: 2px;
 }
