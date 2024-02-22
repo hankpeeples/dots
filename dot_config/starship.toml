@@ -79,6 +79,9 @@ disabled = true
 [nodejs]
 disabled = false
 
+[golang]
+symbol = "go "
+
 [os]
 format = '[$symbol](bold white)'
 disabled = false

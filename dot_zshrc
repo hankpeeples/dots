@@ -76,6 +76,8 @@ alias hyprconf="chezmoi edit ~/.config/hypr"
 alias wayconf="chezmoi edit ~/.config/waybar"
 alias ca="chezmoi apply -v"
 
+alias music="spotifyd && spt"
+
 alias cdg="cd ~/Documents/Golang"
 
 alias l="eza --long --header --git --no-permissions --no-user --all --grid --icons"
